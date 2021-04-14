@@ -64,6 +64,7 @@
 </header>
 
 <div id="body" class="container" style="min-height: 20vh;">
+    <img src="${pageContext.request.contextPath}/images/bmi.png" class="img-fluid mb-4"/>
     <jsp:doBody/>
 </div>
 

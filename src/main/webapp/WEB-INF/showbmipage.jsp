@@ -4,15 +4,26 @@
 
 <t:genericpage>
     <jsp:attribute name="header">
-         BMI Admin page
+         List of BMI Entries
     </jsp:attribute>
     <jsp:attribute name="footer">
     </jsp:attribute>
     <jsp:body>
         <h1>Hello ${sessionScope.email} </h1>
-        <p> You are now logged in as a EMPLOYEE of our wonderful BMI site.</p>
+        This is a list of all BMI Entries in the database so far:
 
-        <p><a href="${pageContext.request.contextPath}/fc/bmientries">Gå til visning af alle BMI resulttater</a></p>
+        <table>
+            <thead>
+            <th>Id</th>
+            <th>BMI</th>
+            <th>Højde</th>
+            <th>Vægt</th>
+            <tr><td></td><td></td><td></td><td></td></tr>
+            </thead>
+
+
+        </table>
+
 
     </jsp:body>
 </t:genericpage>
